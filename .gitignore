@@ -1,0 +1,16 @@
+# Environment variables (NEVER push API keys)
+.env
+
+# Python virtual environment & cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Local vector database storage
+chroma_db/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
